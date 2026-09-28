@@ -1,0 +1,56 @@
+BLOCKING COMBINATION ANALYSIS
+====================================================================================================
+
+S1 tested: 1000
+Actual matches: 3,517
+
+COMBINATION | RECALL | FOUND | MISSED | TOTAL CANDIDATES | AVG CANDIDATES/S1
+----------------------------------------------------------------------------------------------------
+A_NP6_NP8
+Keys: NP6, NP8
+Recall: 35.43%
+Found: 1,246
+Missed: 2,271
+Total candidates: 1,892,431
+Avg candidates/S1: 1,892.43
+----------------------------------------------------------------------------------------------------
+B_NP6_NP8_F2
+Keys: NP6, NP8, F2
+Recall: 35.48%
+Found: 1,248
+Missed: 2,269
+Total candidates: 1,893,455
+Avg candidates/S1: 1,893.45
+----------------------------------------------------------------------------------------------------
+C_NP6_NP8_F2_FL_FL3
+Keys: NP6, NP8, F2, FL, FL3
+Recall: 36.03%
+Found: 1,267
+Missed: 2,250
+Total candidates: 1,913,795
+Avg candidates/S1: 1,913.80
+----------------------------------------------------------------------------------------------------
+D_NP6_NP8_F2_FL_FL3_AN_A2
+Keys: NP6, NP8, F2, FL, FL3, AN, A2
+Recall: 41.00%
+Found: 1,442
+Missed: 2,075
+Total candidates: 1,983,143
+Avg candidates/S1: 1,983.14
+----------------------------------------------------------------------------------------------------
+E_ALL_EXCEPT_AL2_NS6
+Keys: NP6, NP8, NS6, FL, FL3, F2, FML, AN, A2, AW2, NL
+Recall: 43.59%
+Found: 1,533
+Missed: 1,984
+Total candidates: 9,958,006
+Avg candidates/S1: 9,958.01
+----------------------------------------------------------------------------------------------------
+F_ALL_KEYS
+Keys: NP6, NP8, NS6, FL, FL3, F2, FML, AN, A2, AW2, AL2, NL
+Recall: 44.58%
+Found: 1,568
+Missed: 1,949
+Total candidates: 28,143,404
+Avg candidates/S1: 28,143.40
+----------------------------------------------------------------------------------------------------

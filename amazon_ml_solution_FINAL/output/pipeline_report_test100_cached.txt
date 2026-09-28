@@ -1,0 +1,13 @@
+============================================================
+PIPELINE REPORT (tag=test100_cached)
+============================================================
+S1 rows processed     : 100
+Candidate pairs total : 23,863
+Avg candidates / S1   : 238.63
+Elapsed (s)           : 33.4
+Positive labels       : 358
+Negative labels       : 23,505
+
+[S2] actual=167 found=167 recall=1.0000 (100.00%)
+[S3] actual=195 found=191 recall=0.9795 (97.95%)
+[COMBINED] actual=362 found=358 recall=0.9890 (98.90%)

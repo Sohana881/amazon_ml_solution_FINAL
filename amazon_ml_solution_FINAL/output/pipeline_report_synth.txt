@@ -1,0 +1,13 @@
+============================================================
+PIPELINE REPORT (tag=synth)
+============================================================
+S1 rows processed     : 16
+Candidate pairs total : 29
+Avg candidates / S1   : 1.81
+Elapsed (s)           : 0.0
+Positive labels       : 25
+Negative labels       : 4
+
+[S2] actual=15 found=15 recall=1.0000 (100.00%)
+[S3] actual=10 found=10 recall=1.0000 (100.00%)
+[COMBINED] actual=25 found=25 recall=1.0000 (100.00%)
